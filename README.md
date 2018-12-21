@@ -1,2 +1,2 @@
 # simple-quote-page
-prosta strona testowa
+Simplest web page as a visit card or credo page.
