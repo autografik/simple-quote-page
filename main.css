@@ -1,5 +1,6 @@
 * {
   box-sizing: border-box;
+  text-decoration: none
 }
 
 html,
@@ -7,6 +8,8 @@ body {
   margin: 0;
   font-size: 100%;
   line-height: 1.5;
+  color: #50392b;
+  font-family: 'Julius Sans One', sans-serif;
 }
 
 body {
@@ -14,9 +17,40 @@ body {
   width: 100%;
   height: 100vh;
   background-size: cover;
-  color: #50392B;
+  
 }
 
 .wrapper {
+  margin: 0 auto;
+  width: 80%;
+  padding-top: 4rem;
+}
+
+.quote {
   
+  font-size: 2.5rem;
+  text-align: center;
+}
+
+.author {
+  font-family: 'Crimson Text', serif;
+  font-size: 1.5rem;
+  font-style: italic;
+  margin-right: 15%;
+  text-align: right;
+  letter-spacing: .1rem;
+}
+.footer {
+  position: absolute;
+  bottom: 1rem;
+  right: 1.525rem;
+}
+
+a {
+  font-size: .75rem;
+  color: #50392b;
+}
+
+a:hover {
+  letter-spacing: .125rem;
 }
