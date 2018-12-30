@@ -1,6 +1,5 @@
 * {
   box-sizing: border-box;
-  text-decoration: none;
   margin: 0;
   font-size: 100%;
 }
@@ -38,8 +37,8 @@ body {
     padding: 0;
     width: 55%;
     position: relative;
-    top: 160px;
-    left: 130px;
+    top: 8rem;
+    left: 5rem;
   }
   
   .quote {
@@ -53,8 +52,8 @@ body {
     padding: 0;
     width: 45%;
     position: relative;
-    top: 230px;
-    left: 250px;
+    top: 10rem;
+    left: 12rem;
   }
   
   .quote {
@@ -66,23 +65,22 @@ body {
   .wrapper {
     margin: 0;
     padding: 0;
-    width: 30%;
+    width: 50%;
     position: relative;
-    top: 380px;
-    left: 500px;
+    top: 12rem;
+    left: 20rem;
   }
   
   .quote {
-    font-size: 3rem;
-    font-weight: 300;
+    font-size: 2.725rem;
   }
 }
 
 .author {
   font-family: 'Crimson Text', serif;
-  font-size: 1.25rem;
+  font-size: 1.125rem;
   font-style: italic;
-  margin-right: 15%;
+  margin-right: 5%;
   text-align: right;
   letter-spacing: .1rem;
 }
@@ -98,23 +96,24 @@ body {
 @media (min-width: 1920px) {
   
   .author {
-    font-size: 1.3rem;
+    font-size: 1.25rem;
     margin-right: 5%;
   }
 }
 
 .footer {
   position: absolute;
-  bottom: 1rem;
-  right: 1.525rem;
+  bottom: .75rem;
+  right: 1.25rem;
 }
 
 a {
   font-size: .75rem;
   color: #50392b;
+  text-decoration: none;
 }
 
 a:hover {
-  letter-spacing: .115rem;
+  letter-spacing: .1185rem;
   font-weight: 600;
 }
